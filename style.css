@@ -1,0 +1,109 @@
+body{
+	background-color: #000;
+	color: #DF2D2F;
+}
+
+@font-face {
+  font-family: mrrobot;
+  src: url(mrrobot.ttf);
+  
+}
+#clock{
+	font-family: mrrobot;
+	font-size: 100px;
+}
+.container{
+  text-align: center;
+  margin: 0 auto;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  line-height: normal;
+  width: 100%;
+}
+#quote{
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: mrrobot;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+#clock{
+	font-size: 70px;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+#clock{
+	font-size: 70px;
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+#clock{
+	font-size: 70px;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+#clock{
+	font-size: 90px;
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+#clock{
+	font-size: 90px;
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+#clock{
+	font-size: 90px;
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+#clock{
+	font-size: 120px;
+}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+#clock{
+	font-size: 150px;
+}
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+#clock{
+	font-size: 70px;
+}
+}
